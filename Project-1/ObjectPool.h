@@ -6,10 +6,6 @@
 // 
 #endif
 
-// 定长内存池
-//template<size_t N>
-//class ObjectPool
-//{};
 
 // 直接去堆上按页申请空间
 inline static void* SystemAlloc(size_t kpage)

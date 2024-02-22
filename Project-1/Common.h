@@ -87,20 +87,7 @@ public:
 	// [8*1024+1,64*1024]		1024byte¶ÔÆë     freelist[128,184)
 	// [64*1024+1,256*1024]		8*1024byte¶ÔÆë   freelist[184,208)
 
-	/*size_t _RoundUp(size_t size, size_t alignNum)
-	{
-		size_t alignSize;
-		if (size % alignNum != 0)
-		{
-			alignSize = (size / alignNum + 1)*alignNum;
-		}
-		else
-		{
-			alignSize = size;
-		}
 
-		return alignSize;
-	}*/
 	// 1-8 
 	static inline size_t _RoundUp(size_t bytes, size_t alignNum)
 	{

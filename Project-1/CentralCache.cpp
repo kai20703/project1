@@ -7,7 +7,6 @@ CentralCache CentralCache::_sInst;
 // 获取一个非空的span
 Span* CentralCache::GetOneSpan(SpanList& list, size_t size)
 {
-	// ...
 	return nullptr;
 }
 

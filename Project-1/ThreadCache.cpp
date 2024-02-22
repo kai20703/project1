@@ -58,5 +58,4 @@ void ThreadCache::Deallocate(void* ptr, size_t size)
 	size_t index = SizeClass::Index(size);
 	_freeLists[index].Push(ptr);
 
-	// ...
 }
